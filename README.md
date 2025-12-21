@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="screenshots/demo1.png" width="900">
+</p>
+
+<p align="center">
+  <img src="screenshots/demo2.png" width="900">
+</p>
+
+<p align="center">
+  <img src="screenshots/demo3.png" width="900">
+</p>
+
+
 # EIP-7702 Gasless Transactions
 
 This repository is forked from the [QuickNode EIP-7702 Guide Examples](https://github.com/quiknode-labs/qn-guide-examples/tree/main/ethereum/eip-7702) and contains implementations for account abstraction using EIP-7702.
@@ -89,7 +102,8 @@ run : npm start
 
 # Terminal 2
 cd ui
-run : python3 -m http.server 3000
+run (ubuntu): python3 -m http.server 3000
+run (windows): py -m http.server 3000
 # ui is accessible on port localhost:3000
 ```
 
